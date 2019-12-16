@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllBirthday"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:text="Próximo cumpleaños"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/audiowide" />
+
+    <ListView
+        android:id="@+id/ListAllBirthdays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:numColumns="2" />
+
+</RelativeLayout>
